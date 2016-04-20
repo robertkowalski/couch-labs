@@ -4,8 +4,6 @@ It sounds super boring, sometimes scary. Let’s talk about database development
 
 When I tell fellow developers and designers that I develop a database, many of them look scared. Sometimes they also look bored, because people rarely imagine data management is exciting. Some of them might think of boring database courses in college. In this article we’ll discover what makes database development so interesting and exciting.
 
-## With CouchDB, database development can be UI/UX development
-
 One of our main objectives is to make data management as frictionless as possible for the user. How can we lower the entry barrier for new users, but still support our power users? How can we display data in an accurate, detailed way, but still have a high density of information? How do we measure our success without traditional systems to measure engagement, like tracking? It is important to remember--we can be successful only if our users are succesful.
 
 A recent example where we want to make our users more successful is [eventual consistency and MVCC](http://guide.couchdb.org/draft/consistency.html). Large numbers of conflicts can be problematic, they will slow down the database and take up a lot of space. Some of the Fauxton developers recently had a hackweek. As part of one project we asked ourselves: “how can we make conflict detection and resolution a first class citizen in CouchDB and make it as frictionless as possible?”.
